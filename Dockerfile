@@ -2,7 +2,7 @@
 FROM node:20-alpine AS builder
 WORKDIR /usr/src/app
 COPY . .
-ENV REACT_APP_API_URL=172.171.241.129
+ENV REACT_APP_API_URL=13.233.122.164
 RUN npm install
 RUN npm run build
 
